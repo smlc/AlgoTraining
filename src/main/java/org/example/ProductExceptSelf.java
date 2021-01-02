@@ -53,7 +53,7 @@ public class ProductExceptSelf {
 
 		int arr1[] = {1, 2, 3, 4};
 
-		int result[] = productExceptSelfBruteForce(arr1);
+		int result[] = productExceptSelfWithDiv(arr1);
 		for (int i = 0; i < arr1.length; i++) {
 			System.out.print( result[i] + " ");
 		}
